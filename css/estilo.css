@@ -1,0 +1,145 @@
+section{
+    min-height: 100vh;
+}
+
+section div{
+    scroll-margin-top: 80px;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
+    margin-bottom: 0px !important;
+}
+
+.header{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(24, 71, 49);
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+}
+
+menu{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 2px;
+    gap: 5%;
+}
+
+menu a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow
+}
+
+#titulo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: black solid 1px;
+    padding-bottom: 10px;
+}
+
+.reta{
+    border-bottom: black solid 1px;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+#casah2{
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#casah4{
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+
+#casas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;      
+}
+
+.casa img{
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 350px;
+    max-height: 350px;
+    height: 90%;
+    width: 90%;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#carroh2{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+#carroh4{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#carros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    overflow-x: auto;   
+}
+
+.carro img{
+    height: 250px;
+    width: 250px;
+}
+
+.carro{
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 48px;
+}
+
+#footer{
+    display: flex;
+    border: black solid 1px;
+    margin: 0;
+    flex-flow: row wrap;
+    padding: 20px;
+    background-color: rgb(24, 71, 49);
+    color: white;
+}
+
+#sobre{
+    flex: 3 3 400px;
+}
+
+#contato{
+    flex: 1 1 200px;
+}
